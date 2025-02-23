@@ -13,6 +13,7 @@ public class Largest {
 
         int large = getLargest(array);
         System.out.println("Largest Number is : " + large);
+        Array.print(array);
     }
 
     public static int getLargest(int[] array){
